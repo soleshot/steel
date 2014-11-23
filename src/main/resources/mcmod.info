@@ -1,0 +1,22 @@
+[
+{
+  "modid": "nw-steel",
+  "name": "Inwright Steel",
+  "description": "Adds steel to the world.",
+  "version": "${version}",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "soleshot", "soleslinger"
+  ],
+  "credits": "Farther and Son",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "useDependencyInformation":false,
+  "dependencies": [
+  ]
+}
+]
