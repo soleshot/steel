@@ -1,1 +1,5 @@
 tile.nw-steel_Steel.name=Inwright Steel
+
+item.nw-steel_SteelRod.name=Steel Rod
+
+itemGroup.nw-steel=Inwright Steel

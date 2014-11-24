@@ -1,14 +1,12 @@
 package com.inwright.steel.blocks;
 
-import net.minecraft.block.Block;
+import com.inwright.core.block.NWBlock;
 
-/**
- * Created by Sysop on 11/23/2014.
- */
+
 public final class Blocks {
-    public static Block steelBlock;
+    public static NWBlock steelBlock = new SteelBlock();
 
     public static void init() {
-        steelBlock = new SteelBlock();
+
     }
 }

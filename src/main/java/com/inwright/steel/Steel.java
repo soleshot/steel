@@ -4,6 +4,7 @@ package com.inwright.steel;
 import com.inwright.core.proxy.IProxy;
 import com.inwright.steel.blocks.Blocks;
 import com.inwright.steel.config.Config;
+import com.inwright.steel.items.Items;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -30,6 +31,7 @@ public class Steel {
         Config.init(event.getSuggestedConfigurationFile());
 
         Blocks.init();
+        Items.init();
     }
 
     @Mod.EventHandler
